@@ -79,8 +79,22 @@ p {
     line-height: 1.65em;
 }
 
+
 article.page h2 {
     font-size: 32px;
+}
+
+.custom-page-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-page-layout .page-title {
+    width: 30%;
+}
+
+.custom-page-layout .page-content {
+    width: 70%;
 }
 
 footer {
