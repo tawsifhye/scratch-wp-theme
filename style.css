@@ -16,6 +16,37 @@ body {
     color: #333;
 }
 
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.site-nav ul li {
+    list-style: none;
+}
+
+.site-header nav ul li {
+    margin-right: 5px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #bbb;
+    text-decoration: none;
+}
+
+.site-header nav ul li a:hover {
+    color: rgb(255, 109, 109);
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+    background-color: rgba(226, 163, 163, 0.692);
+}
+
 a:link,
 a:visited {
     color: #006ec3;
@@ -38,7 +69,6 @@ article.post figcaption a {
     color: rgb(206, 67, 67);
     text-decoration: none;
     font-size: 20px;
-    ;
 }
 
 article.post:last-of-type {
@@ -49,7 +79,19 @@ p {
     line-height: 1.65em;
 }
 
+article.page h2 {
+    font-size: 32px;
+}
+
 footer {
     border-top: 2px solid rgb(116, 86, 86);
     margin-top: 20px;
+}
+
+.site-footer nav ul li {
+    margin-right: 10px;
+}
+
+.site-footer nav ul li a {
+    text-decoration: none;
 }
