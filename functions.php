@@ -33,9 +33,6 @@ function has_children(){
     global $post;
 
    $pages = get_pages('child_of='.$post->ID);
-    echo'<pre>';
-    print_r(get_pages('child_of='.$post->ID));
-    echo'</pre>';
    
    return count($pages);
 }
