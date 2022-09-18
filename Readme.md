@@ -1,4 +1,4 @@
-## Topis Covered 
+## Topics Covered 
 
 -  Required files 
 - WP navigation menus 
