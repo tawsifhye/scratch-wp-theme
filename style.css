@@ -61,9 +61,7 @@ article.post {
     border-bottom: 2px dotted gray;
 }
 
-article.post img {
-    width: 50% !important;
-}
+
 
 article.post figcaption a {
     color: rgb(206, 67, 67);
@@ -108,4 +106,19 @@ footer {
 
 .site-footer nav ul li a {
     text-decoration: none;
+}
+
+/*   */
+
+
+
+.has-thumbnail {
+    position: relative;
+    padding-left: 220px;
+}
+
+.post-thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
