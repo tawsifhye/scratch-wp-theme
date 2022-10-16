@@ -5,5 +5,5 @@
 - WP page templates 
 - Child page menu
 - Wp post meta data
--Wp Excerpt 
--Featured Image 
+- Wp Excerpt 
+- Featured Image 
